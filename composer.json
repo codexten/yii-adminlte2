@@ -1,0 +1,24 @@
+{
+  "name": "codexten/yii-adminlte2",
+  "type": "yii2-extension",
+  "description": "Yii adminlte2 admin theme integration",
+  "require": {
+    "dmstr/yii2-adminlte-asset": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\adminlte2\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "bootswatch": [
+        "$web",
+        "config/bootswatch.php"
+      ]
+    }
+  }
+}
