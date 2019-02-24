@@ -14,10 +14,10 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
-      "bootswatch": [
+    "config-plugin": {
+      "adminlte2": [
         "$web",
-        "config/bootswatch.php"
+        "config/adminlte2.php"
       ]
     }
   }
