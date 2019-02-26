@@ -1,6 +1,5 @@
 <?php
-
-$menuItems = require(Yii::getAlias('@codexten/yii/adminlte2/views/layouts/blocks/leftMenuItems.php'));
+/* @var $this \yii\web\View */
 ?>
 
 <aside class="main-sidebar">
@@ -39,12 +38,7 @@ $menuItems = require(Yii::getAlias('@codexten/yii/adminlte2/views/layouts/blocks
 
         <?php endIf; ?>
 
-        <?= dmstr\widgets\Menu::widget(
-            [
-                'options' => ['class' => 'sidebar-menu tree', 'data-widget' => 'tree'],
-                'items' => $menuItems,
-            ]
-        ) ?>
+        <?= $this->render('@app/views/layouts/blocks/leftMenu.php') ?>
 
     </section>
 
