@@ -28,6 +28,9 @@ return [
                     '@app/views/layouts' => [
                         '@codexten/yii/adminlte2/views/layouts',
                     ],
+                    '@app/widgets/views' => [
+                        '@codexten/yii/widgets/views',
+                    ],
                     '@codexten/yii/modules/auth/' => [
                         '@codexten/yii/adminlte2/modules/auth/',
                     ],
