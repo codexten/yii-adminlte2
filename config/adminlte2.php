@@ -25,9 +25,6 @@ return [
                     '@app/views' => [
                         '@codexten/yii/adminlte2/views',
                     ],
-                    '@app/views/layouts' => [
-                        '@codexten/yii/adminlte2/views/layouts',
-                    ],
                     '@app/widgets/views' => [
                         '@codexten/yii/adminlte2/widgets/views',
                     ],

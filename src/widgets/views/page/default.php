@@ -13,4 +13,18 @@ $widget = $this->context;
 /* @var $content string */
 ?>
 
-<?= $content ?>
+<div class="box">
+    <div class="box-header">
+        <div class="pull-right box-tools">
+
+            <?= $widget->renderContent('main-actions') ?>
+
+        </div>
+    </div>
+    <div class="box-body">
+
+        <?= $content ?>
+
+    </div>
+</div>
+
