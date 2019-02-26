@@ -13,6 +13,19 @@ $widget = $this->context;
 
 <?php $this->beginContent('@app/widgets/views/page/default.php'); ?>
 
-<?= $widget->renderContent('table') ?>
+<div class="box">
+    <div class="box-header">
+        <div class="pull-right box-tools">
+
+            <?= $widget->renderContent('main-actions') ?>
+
+        </div>
+    </div>
+    <div class="box-body">
+
+        <?= $widget->renderContent('table') ?>
+
+    </div>
+</div>
 
 <?php $this->endContent() ?>

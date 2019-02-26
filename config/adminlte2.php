@@ -29,11 +29,21 @@ return [
                         '@codexten/yii/adminlte2/views/layouts',
                     ],
                     '@app/widgets/views' => [
-                        '@codexten/yii/widgets/views',
+                        '@codexten/yii/adminlte2/widgets/views',
                     ],
                     '@codexten/yii/modules/auth/' => [
                         '@codexten/yii/adminlte2/modules/auth/',
                     ],
+                ],
+            ],
+        ],
+    ],
+    'container' => [
+        'definitions' => [
+            \codexten\yii\web\widgets\Page::class => [
+                'class' => \codexten\yii\web\widgets\Page::class,
+                'defaultButtonOptions' => [
+                    'class' => 'btn',
                 ],
             ],
         ],
