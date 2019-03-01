@@ -3,6 +3,7 @@
   "type": "yii2-extension",
   "description": "Yii adminlte2 admin theme integration",
   "require": {
+    "codexten/yii-bootstrap3": "~2.0",
     "dmstr/yii2-adminlte-asset": "^2.1"
   },
   "autoload": {
