@@ -18,6 +18,7 @@
     "config-plugin": {
       "adminlte2": [
         "$web",
+        "$bootstrap3",
         "config/adminlte2.php"
       ]
     }
