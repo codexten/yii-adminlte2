@@ -15,6 +15,7 @@ return [
                     'class' => \codexten\yii\web\Theme::class,
                     'assets' => [
                         \dmstr\web\AdminLteAsset::class,
+                        \yidas\yii\fontawesome\FontawesomeAsset::class,
                     ],
                 ],
             ],
