@@ -5,7 +5,8 @@
   "require": {
     "codexten/yii-bootstrap3": "~2.0",
     "dmstr/yii2-adminlte-asset": "^2.1",
-    "yidas/yii2-fontawesome": "~2.0.0"
+    "yidas/yii2-fontawesome": "~2.0.0",
+    "codexten/yii-settings": "~2.0"
   },
   "autoload": {
     "psr-4": {
