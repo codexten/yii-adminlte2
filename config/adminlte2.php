@@ -6,16 +6,19 @@
  * Time: 10:24 PM
  */
 
+use codexten\yii\web\Theme;
+use codexten\yii\web\widgets\Page;
+use dmstr\web\AdminLteAsset;
+
 return [
     'components' => [
         'themeManager' => [
             'defaultTheme' => 'adminLte2',
             'themes' => [
                 'adminLte2' => [
-                    'class' => \codexten\yii\web\Theme::class,
+                    'class' => Theme::class,
                     'assets' => [
-                        \dmstr\web\AdminLteAsset::class,
-                        \yidas\yii\fontawesome\FontawesomeAsset::class,
+                        AdminLteAsset::class,
                     ],
                 ],
             ],
@@ -38,8 +41,8 @@ return [
     ],
     'container' => [
         'definitions' => [
-            \codexten\yii\web\widgets\Page::class => [
-                'class' => \codexten\yii\web\widgets\Page::class,
+            Page::class => [
+                'class' => Page::class,
                 'defaultButtonOptions' => [
                     'class' => 'btn',
                 ],
