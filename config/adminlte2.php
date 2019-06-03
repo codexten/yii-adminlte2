@@ -6,6 +6,7 @@
  * Time: 10:24 PM
  */
 
+use codexten\yii\adminlte2\widgets\Menu;
 use codexten\yii\web\Theme;
 use codexten\yii\web\widgets\Page;
 use dmstr\web\AdminLteAsset;
@@ -46,6 +47,9 @@ return [
                 'defaultButtonOptions' => [
                     'class' => 'btn',
                 ],
+            ],
+            \dmstr\widgets\Menu::class => [
+                'class' => Menu::class,
             ],
         ],
     ],
