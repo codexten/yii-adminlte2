@@ -17,7 +17,7 @@ $this->params['body']['options'] = ['class' => 'hold-transition login-page'];
     </div>
     <div class="login-box-body">
 
-        <?= $this->render('@codexten/yii/modules/auth/views/account/login/_form.php', [
+        <?= $this->render('@moduleAuth/views/account/login/_form.php', [
             'model' => $model,
             'module' => $module,
         ]) ?>
