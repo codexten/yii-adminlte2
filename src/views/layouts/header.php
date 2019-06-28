@@ -272,7 +272,7 @@ use yii\web\View;
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
-                                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                <a href="<?= \yii\helpers\Url::to(['/myaccount/security/password']) ?>" class="btn btn-default btn-flat">Account</a>
                             </div>
                             <div class="pull-right">
                                 <?= Html::a(
